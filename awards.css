@@ -1,3 +1,100 @@
+#overlay{
+    background-color: rgba(9, 7, 36, 1);
+    color: white;
+    margin-top: 7.7%;
+    margin-bottom: 0;
+    font-size: 18px;
+    border-left: 200px solid whitesmoke;
+    border-right: 200px solid whitesmoke;
+    justify-content: space-around;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 0;
+}
+nav{
+    margin-right:0;
+  background-color: black;
+  padding:45px;
+  position: fixed;
+  top:0;
+  right:0;
+  left:0;
+  z-index:1;
+  background-image:url("https://lh3.googleusercontent.com/isHqUOsF4W8mb9r8avCKK1dt0Ue8OvpdeDJJiONRg0TCChooPJtrqaPdRwuYgglJZntsTQ=s110");
+  background-size:contain;
+  background-repeat:no-repeat;
+}
+nav>ul{
+    text-align: right;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+nav>ul>li{
+    display: inline-block;
+}
+nav>ul>li>a{
+    text-transform:uppercase;
+    text-decoration:none;
+    color: white;
+    padding:10px;
+}
+nav>ul>li>a:hover{
+    color: rgb(19, 19, 24);
+    background-color: gold;
+    box-shadow: 2px 2px 5px gold;
+}
+.contacts{
+    background-color: black;
+    color: white;
+    position: relative;
+}
+.logo{
+    float: right;
+    position: relative;
+    bottom: 180px;
+    right: 10px;
+}
+.languages>ul>li{
+    display: inline-block;
+    padding: 35px;
+    color: rgb(202, 72, 50);
+}
+.languages>ul>li:hover{
+    color : goldenrod;
+    background-color: white;
+}
+tr {
+    justify-content: space-between;
+    padding: 10px;
+}
+td{
+    justify-content: space-between;
+    padding: 10px;
+}
+th{
+    margin-left: 0;
+    padding-right: 0;
+}
+span{
+    text-decoration: underline;
+}
+.film{
+    position: relative;
+    left: 600px;
+    bottom: 150px;
+    font-size: 50px;
+    color: gold;
+    font-family: 'Yeon Sung', cursive;
+}
+.learn{
+    color: red;
+    background-color: antiquewhite;
+}
+.learn:hover{
+    color: green;
+    background-color: chartreuse;
+}
 #category{
     border-collapse: collapse;
     border: 2px solid black;
@@ -5,6 +102,8 @@
 tr{
     border: 2px solid black;
     background-color: aquamarine;
+    color: black;
+    font-size: 20px;
 }
 th{
     border: 2px solid black;
@@ -13,4 +112,24 @@ th{
 }
 #indian{
     background-color: indianred
+}
+.university{
+    display: flex;
+    flex-direction: column;
+}
+.secondary{
+    display: flex;
+    flex-direction: column;
+}
+#row{
+    background-color: black;
+    color: white;
+}
+.awards{
+    text-transform: uppercase;
+    color: gold;
+    font-family: 'Bree Serif', serif;
+}
+h2 , h1{
+    color: rgb(218, 201, 107);
 }

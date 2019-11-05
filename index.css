@@ -1,13 +1,15 @@
-body{
+#overlay{
     background-color: rgba(9, 7, 36, 1);
     color: white;
-    margin-top: 8%;
+    margin-top: 7.7%;
     margin-bottom: 0;
     font-size: 18px;
-    border-left: 200px solid whitesmok;
-    border-right: 200px solid whitesmok;
-    margin-left: 20%;
-    margin-right: 20%;
+    border-left: 200px solid whitesmoke;
+    border-right: 200px solid whitesmoke;
+    justify-content: space-around;
+    padding-left: 150px;
+    padding-right: 100px;
+    margin-bottom: 0;
 }
 nav{
     margin-right:0;
@@ -45,11 +47,12 @@ nav>ul>li>a:hover{
 .contacts{
     background-color: black;
     color: white;
+    position: relative;
 }
 .logo{
     float: right;
     position: relative;
-    bottom: 120px;
+    bottom: 180px;
     right: 10px;
 }
 .languages>ul>li{
@@ -59,10 +62,46 @@ nav>ul>li>a:hover{
 }
 .languages>ul>li:hover{
     color : goldenrod;
+    background-color: white;
 }
-.contacts > footer > table{
+tr {
     justify-content: space-between;
+    padding: 10px;
 }
 td{
     justify-content: space-between;
+    padding: 10px;
+}
+th{
+    margin-left: 0;
+    text-decoration: underline;
+    padding-right: 0;
+}
+.film{
+    position: relative;
+    left: 600px;
+    bottom: 150px;
+    font-size: 50px;
+    color: gold;
+    font-family: 'Yeon Sung', cursive;
+}
+.learn{
+    color: red;
+    background-color: antiquewhite;
+}
+.learn:hover{
+    color: green;
+    background-color: chartreuse;
+}
+#annual{
+    text-decoration: underline;
+    font-size: 100px;
+    font-family: 'Spicy Rice', cursive;
+    color: gold;
+}
+.management{
+    color:rgb(64, 131, 61);
+}
+#management{
+    color: hotpink;
 }
