@@ -3,7 +3,7 @@
     color: white;
     margin-top: 7.7%;
     margin-bottom: 0;
-    font-size: 18px;
+    font-size: 24px;
     border-left: 200px solid whitesmoke;
     border-right: 200px solid whitesmoke;
     justify-content: space-around;
@@ -102,4 +102,18 @@ th{
 #events{
     color: red;
     font-size: 50px;
+}
+#upcoming{
+    color: yellowgreen;
+    background-color: black;
+}
+#upcoming:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+p{
+    font-size: 33px;
+    position: relative;
+    left: 250px;
+    padding-bottom: 50px;
 }
