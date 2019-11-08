@@ -4,7 +4,7 @@
     
 }
 .container{
-    overflow-x: none;
+    overflow-x: hidden;
 }
 body{
     background-color: rgba(9, 7, 36, 1);
