@@ -210,11 +210,17 @@ iframe{
           padding-left: 20px;
           margin-top: 29%;
       } 
+      .container{
+        width: 90%;
+    }
        #gallery{
            display: flex;
            flex-direction: column;
        }
        nav{
+           width:80%;
+       }
+       iframe{
            width:80%;
        }
 }
