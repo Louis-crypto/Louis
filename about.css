@@ -182,3 +182,19 @@ h1 , h3{
 .management{
     width: 40%;
 }
+@media screen and (max-width:1024px){
+    body{
+        width:100%;
+        padding-left: 15px;
+        margin-top: 33%;
+    } 
+    .container{
+        width: 90%;
+    }
+    .management{
+        width: 50%;
+    }
+    #tertiary, #secondary, #primary{
+        width: 80%;
+    }
+}

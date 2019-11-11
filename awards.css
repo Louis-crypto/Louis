@@ -225,3 +225,16 @@ h2 , h1{
 .winners{
     width: 60%;
 }
+@media screen and (max-width:1024px){
+    body{
+        width:90%;
+        padding-left: 15px;
+        margin-top: 35%;
+    }
+    .container{
+        width: 90%;
+    }
+    .winners{
+        width: 120%;
+    } 
+}
