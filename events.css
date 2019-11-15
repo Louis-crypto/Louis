@@ -1,102 +1,4 @@
-*{
-    width: 98%;
-    overflow-x: hidden;
-    
-}
-.container{
-    overflow-x: hidden;
-    width: 80%;
-    color: white;
-    padding-left: 10%;
-}
-body{
-    background-color: rgba(9, 7, 36, 1);
-    margin-top: 20%;
-    overflow-x: none;
-    padding-left: 50px;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-nav{
-    margin-right:0;
-  background-color: black;
-  padding:45px;
-  padding-bottom: 30px;
-  position: fixed;
-  top:0;
-  right:0;
-  left:0;
-  z-index:1;
-  background-image:url("https://lh3.googleusercontent.com/isHqUOsF4W8mb9r8avCKK1dt0Ue8OvpdeDJJiONRg0TCChooPJtrqaPdRwuYgglJZntsTQ=s110");
-  background-size:contain;
-  background-repeat:no-repeat;
-  overflow: visible;
-  display: inline;
-}
-nav>ul{
-    text-align: center;
-    left: 0;
-    right: 0;
-    top: 0;
-    overflow: visible;
-}
-nav>ul>li{
-    display: inline;
-    overflow: visible;
-    padding: 30px;
-}
-nav>ul>li>a{
-    text-transform:uppercase;
-    text-decoration:none;
-    color: white;
-    padding:10px;
-}
-nav>ul>li>a:hover{
-    color: rgb(19, 19, 24);
-    background-color: gold;
-    box-shadow: 2px 2px 5px gold;
-}
-.icon-bar {
-    position: fixed;
-    width: 5%;
-    top: 7%;
-    left: 90%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    overflow: hidden;
-}
-.icon-bar a {
-    display: inline;
-    text-align: center;
-    padding: 16px;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 20px;
-  }
-  .icon-bar a:hover{
-    color: deeppink;
-}
-.facebook {
-    color: white;
-  }
-  
-  .twitter {
-    color: white;
-  }
-  
-  .google {
-    color: white;
-  }
-  
-  .instagram {
-    color: white;
-  }
-  
-  .youtube {  
-      color: white;
-  }
+
 .contacts{
     background-color: black;
     color: white;
@@ -105,7 +7,7 @@ nav>ul>li>a:hover{
 
 .footer{
     width: 110%;
-    margin-left: -3%;
+    margin-left: 1%;
     right: 0;
     overflow: hidden;
     background-color: black;
@@ -116,6 +18,7 @@ footer{
     bottom: 0;
     background-color: black;
     color: bisque;
+   
 }
 .languages{
     overflow: hidden;
@@ -167,51 +70,61 @@ th{
     font-family: 'Yeon Sung', cursive;
 }
 .learn{
-    color: red;
-    background-color: antiquewhite;
+    color:  blue ;
+    background-color: white;
 }
 .learn:hover{
     color: green;
-    background-color: chartreuse;
 }
-.oops{
-    position: relative;
-    left: 10px;
-    top: 30px;
-    padding-bottom: 100px;
+#annual{
+    text-decoration: underline;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(66, 9, 66);
 }
-#events{
-    color: red;
-    font-size: 40px;
-    width: 150%;
 }
-.upcoming{
-    left: 10px;
+.tradi{
+    border-radius: 10px;
 }
-#upcoming{
-    color: yellowgreen;
-    background-color: black;
-}
-#upcoming:hover{
-    background-color: antiquewhite;
+#paragragh{
     color: black;
+    font-size: 25px;
+    border : 1px solid black;
+    margin-right: 0%;
 }
-p{
-    font-size: 33px;
-    position: relative;
-    left: 250px;
-    padding-bottom: 50px;
+imgcaption{
+    color: rgb(66, 9, 66);
+    font-size: 24px;
+    text-decoration: underline;
+}
+iframe{
+    width: 30%;
+}
+#gallery{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
 }
 @media screen and (max-width:1024px){
-    body{
-        width:90%;
-        padding-left: 20px;
-        margin-top: 33%;
-    } 
-    .container{
+      body{
+          width:90%;
+          padding-left: 20px;
+          margin-top: 29%;
+      } 
+      .container{
         width: 90%;
     }
-    h1{
-        left: 10%;
-    }
+       #gallery{
+           display: flex;
+           flex-direction: column;
+       }
+       nav{
+           width:80%;
+       }
+       iframe{
+           width:80%;
+       }
 }
+
+
+

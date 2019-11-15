@@ -1,71 +1,74 @@
-*{
-    width: 98%;
-    overflow-x: hidden;
-    
+body{
+    background-color: rgb(241, 241, 180);
+    color: black;
+    font-size: 24px;
 }
 .container{
-    overflow-x: hidden;
-    width: 50%;
-    color: white;
-    padding-left: 20%;
+    justify-content: center;
+    text-align: center;
+ 
 }
-body{
-    background-color: rgba(9, 7, 36, 1);
-    margin-top: 20%;
-    overflow-x: none;
-    padding-left: 50px;
-    top: 0;
-    left: 0;
-    right: 0;
+#gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.schools{
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+.management{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#management{
+    text-align: center;
+}
+.annual{
+    text-align: center;
 }
 nav{
-    margin-right:0;
-  background-color: black;
-  padding:45px;
-  padding-bottom: 30px;
-  position: fixed;
-  top:0;
-  right:0;
-  left:0;
-  z-index:1;
-  background-image:url("https://lh3.googleusercontent.com/isHqUOsF4W8mb9r8avCKK1dt0Ue8OvpdeDJJiONRg0TCChooPJtrqaPdRwuYgglJZntsTQ=s110");
-  background-size:contain;
-  background-repeat:no-repeat;
-  overflow: visible;
-  display: inline;
+    background-color: black;
+    padding: 15px;
+    margin: 0px;
 }
-nav>ul{
+nav ul{
     text-align: center;
     left: 0;
     right: 0;
     top: 0;
-    overflow: visible;
 }
-nav>ul>li{
+nav ul li{
     display: inline;
-    overflow: visible;
     padding: 30px;
+    margin: 10px 5px;
 }
-nav>ul>li>a{
+nav ul li a {
     text-transform:uppercase;
     text-decoration:none;
     color: white;
     padding:10px;
+    border: 2px solid white;
 }
-nav>ul>li>a:hover{
-    color: rgb(19, 19, 24);
-    background-color: gold;
-    box-shadow: 2px 2px 5px gold;
+nav ul li a:hover{
+    color: purple;
+    border: 2px solid purple;
+}
+.logo{
+    width: 6%;
+    left: 0;
+    bottom: 0;
+    top: 0;
 }
 .icon-bar {
+    color: white;
     position: fixed;
-    width: 5%;
-    top: 7%;
-    left: 90%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    overflow: hidden;
+    right: 0;
+    top: 40px;
 }
 .icon-bar a {
     display: inline;
@@ -74,29 +77,36 @@ nav>ul>li>a:hover{
     transition: all 0.3s ease;
     color: white;
     font-size: 20px;
-  }
-  .icon-bar a:hover{
-    color: deeppink;
 }
+.icon-bar a:hover {
+    color: deeppink;
+    background-color: beige;
+}
+
 .facebook {
     color: white;
-  }
-  
-  .twitter {
+    background-color:#3B5998;
+}
+
+.twitter {
     color: white;
-  }
-  
-  .google {
+    background-color: #55ACEE;
+}
+
+.google {
     color: white;
-  }
-  
-  .instagram {
+    background-color: #dd4b39;
+}
+
+.instagram {
     color: white;
-  }
-  
-  .youtube {
+    background-color: #125688;
+}
+
+.youtube {
     color: white;
-  }
+    background-color:  #bb0000;
+}
 .contacts{
     background-color: black;
     color: white;
@@ -104,10 +114,8 @@ nav>ul>li>a:hover{
 }
 
 .footer{
-    width: 110%;
-    margin-left: -3%;
+    width: 100%;
     right: 0;
-    overflow: hidden;
     background-color: black;
 }
 footer{
@@ -118,19 +126,16 @@ footer{
     color: bisque;
 }
 .languages{
-    overflow: hidden;
     padding: 30px;
 }
 .languages>ul>li{
     display: inline;
     padding: 35px;
     color: rgb(202, 72, 50);
-    overflow: hidden;
     padding: 30px;
 }
 .languages>ul{
     display: inline;
-    overflow: hidden;
     padding: 30px;
 }
 .languages>ul>li:hover{
@@ -140,7 +145,6 @@ footer{
 .table{
     border: 2px solid white;
     padding: 5px;
-    overflow: hidden;
     width: 20%;
     margin-left: 4%;
 }
@@ -174,27 +178,27 @@ th{
     color: green;
     background-color: chartreuse;
 }
-h1 , h3{
+.film{
+    font-size: 40px;
     color: gold;
-    font-family: 'Bree Serif', serif;
-    text-transform: uppercase;
+    font-family: 'Yeon Sung', cursive;
 }
-.management{
-    width: 40%;
+.learn{
+    color:  blue ;
+    background-color: white;
+}
+.learn:hover{
+    color: green;
 }
 @media screen and (max-width:1024px){
     body{
+    background-color: rgb(136, 136, 129);
+    color: black;
+    font-size: 24px;
         width:100%;
-        padding-left: 15px;
-        margin-top: 33%;
     } 
     .container{
-        width: 90%;
+    justify-content: center;
+    text-align: center;
+ 
     }
-    .management{
-        width: 50%;
-    }
-    #tertiary, #secondary, #primary{
-        width: 80%;
-    }
-}

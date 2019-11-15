@@ -1,70 +1,76 @@
-*{
-    width: 98%;
-    overflow-x: hidden;
+body {
+    background-color: black;
+    color: white;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.top img{
+    width: 200px;
+    height: 212px;
+}
+
+.button,
+.button1 {
+    color: black;
+    font-size: 20px;
+    top: 0;
+    margin: 5px;
+    padding: 7px;
+    text-decoration: none;
+    border: 1px solid white;
+    background-color: white;
+}
+.button:hover , .button1:hover{
+    background-color: black;
+    color: white;
+}
+hr {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+  }
+nav {
+    padding: 15px;
+    margin: 20px;
+    z-index: 1;
+
+}
+
+nav>ul>li {
+    display: inline;
+    padding: 30px;
+    list-style: none;
     
 }
-.container{
-    overflow-x: hidden;
-}
-body{
-    background-color: rgba(9, 7, 36, 1);
-    margin-top: 20%;
-    overflow-x: none;
-    padding-left: 50px;
-    top: 0;
-    left: 0;
-    right: 0;
-    overflow-x: hidden;
-}
-nav{
-    margin-right:0;
-  background-color: black;
-  padding:45px;
-  padding-bottom: 30px;
-  position: fixed;
-  top:0;
-  right:0;
-  left:0;
-  z-index:1;
-  background-image:url("https://lh3.googleusercontent.com/isHqUOsF4W8mb9r8avCKK1dt0Ue8OvpdeDJJiONRg0TCChooPJtrqaPdRwuYgglJZntsTQ=s110");
-  background-size:contain;
-  background-repeat:no-repeat;
-  overflow: visible;
-  display: inline;
-}
-nav>ul{
-    text-align: center;
-    left: 0;
-    right: 0;
-    top: 0;
-    overflow: visible;
-}
-nav>ul>li{
-    display: inline;
-    overflow: visible;
-    padding: 30px;
-}
-nav>ul>li>a{
-    text-transform:uppercase;
-    text-decoration:none;
+
+nav>ul>li>a {
+    text-transform: uppercase;
+    text-decoration: none;
     color: white;
-    padding:10px;
+    padding: 20px;
+    font-size: 26px;
 }
-nav>ul>li>a:hover{
-    color: rgb(19, 19, 24);
-    background-color: gold;
-    box-shadow: 2px 2px 5px gold;
+
+nav>ul>li>a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+.african{
+    width:20%;
+    height: 10%;
 }
 .icon-bar {
+    color: white;
     position: fixed;
-    width: 5%;
-    top: 7%;
-    left: 90%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    overflow: hidden;
+    right: 43%;
+    bottom: 5px;
 }
+
 .icon-bar a {
     display: inline;
     text-align: center;
@@ -72,158 +78,68 @@ nav>ul>li>a:hover{
     transition: all 0.3s ease;
     color: white;
     font-size: 20px;
-  }
-  .icon-bar a:hover{
-      color: deeppink;
-  }
+}
+
+.greeting {
+    text-align: center;
+    margin-top: 7%;
+    color: white;
+    align-items: center;
+}
+
+.icon-bar a:hover {
+    color: deeppink;
+    background-color: beige;
+}
+
 .facebook {
     color: white;
-  }
-  
-  .twitter {
-    color: white;
-  }
-  
-  .google {
-    color: white;
-  }
-  
-  .instagram {
-    color: white;
-  }
-  
-  .youtube {
-    color: white;
-  }
-.contacts{
-    background-color: black;
-    color: white;
-    position: relative;
+    background-color:#3B5998;
 }
 
-.footer{
-    width: 110%;
-    margin-left: -3%;
-    right: 0;
-    overflow: hidden;
-    background-color: black;
-}
-footer{
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background-color: black;
-    color: bisque;
-}
-.languages{
-    overflow: hidden;
-    padding: 30px;
-}
-.languages>ul>li{
-    display: inline;
-    padding: 35px;
-    color: rgb(202, 72, 50);
-    overflow: hidden;
-    padding: 30px;
-}
-.languages>ul{
-    display: inline;
-    overflow: hidden;
-    padding: 30px;
-}
-.languages>ul>li:hover{
-    color : goldenrod;
-    background-color: white;
-}
-.table{
-    border: 2px solid white;
-    padding: 5px;
-    overflow: hidden;
-    width: 20%;
-    margin-left: 4%;
-}
-tr {
-    justify-content: space-between;
-    padding: 5px;
-}
-td{
-    justify-content: space-between;
-    padding: 5px;
-}
-.table tr th:first-child{
-    text-align: left;
-}
-th{
-    margin-left: 0;
-    text-decoration: underline;
-    padding-right: 0;
-    padding: 5px;
-}
-.film{
-    font-size: 40px;
-    color: gold;
-    font-family: 'Yeon Sung', cursive;
-}
-.learn{
-    color: red;
-    background-color: antiquewhite;
-}
-.learn:hover{
-    color: green;
-    background-color: chartreuse;
-}
-#annual{
-    text-decoration: underline;
-    font-size: 50px;
-    font-family: 'Open Sans', sans-serif;
-    color: gold;
-}
-.management{
-    color:rgb(64, 131, 61);
-}
-#management{
-    color: hotpink;
-}
-.tradi{
-    border-radius: 30px;
-}
-p{
+.twitter {
     color: white;
-    font-size: 25px;
+    background-color: #55ACEE;
 }
-imgcaption{
+
+.google {
     color: white;
-    font-size: 24px;
-    text-decoration-color: crimson;
-    text-decoration: underline;
+    background-color: #dd4b39;
 }
-iframe{
-    width: 30%;
+
+.instagram {
+    color: white;
+    background-color: #125688;
 }
-#gallery{
-    display: flex;
-    flex-direction: row;
+
+.youtube {
+    color: white;
+    background-color:  #bb0000;
 }
-@media screen and (max-width:1024px){
-      body{
-          width:90%;
-          padding-left: 20px;
-          margin-top: 29%;
-      } 
-      .container{
+
+h3 {
+    position: relative;
+    top: 9px;
+    color: white;
+}
+
+footer {
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+@media screen and (max-width:1024px) {
+    body {
+        width: 90%;
+        padding-left: 20px;
+        margin-top: 33%;
+    }
+
+    .container {
         width: 90%;
     }
-       #gallery{
-           display: flex;
-           flex-direction: column;
-       }
-       nav{
-           width:80%;
-       }
-       iframe{
-           width:80%;
-       }
+
+    h1 {
+        left: 10%;
+    }
 }
-
-
-
